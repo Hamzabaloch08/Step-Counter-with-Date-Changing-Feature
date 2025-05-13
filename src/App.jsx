@@ -12,7 +12,7 @@ function App() {
     count === 0 ? "Today" : `${count} day${count > 1 ? "s" : ""} from today`;
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-900 p-6">
+    <div className="min-h-screen flex items-center justify-center bg-black p-6">
       <div className="w-full max-w-md bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-2xl shadow-blue-600 p-6 text-white space-y-8">
         {/* Step Controls */}
         <div className="space-y-2">
